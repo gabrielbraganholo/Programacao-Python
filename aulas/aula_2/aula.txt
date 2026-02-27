@@ -1,0 +1,13 @@
+Python como linguagem de progarmação
+    -linguagem interpretada
+    -linguagem não tipada
+    -categorias de instruções 
+        -instruções primitivas
+            -print
+            -input
+            - =
+        -instruções de controle
+            -seleção
+            -repetição
+
+##aprender list comprehention
