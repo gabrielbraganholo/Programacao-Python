@@ -106,7 +106,6 @@ if __name__ == "__main__":
     print("2 - Digitar uma cidade\n")
 
     opcao = input("Escolha uma opção: ")
-    print("\n")
     
     if opcao == "1":
 
