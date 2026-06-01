@@ -6,8 +6,4 @@ class CidadeClima:
         self.condicao = condicao
 
     def __str__(self):
-        return(
-            f"{'-' * 60}"
-            f"Cidade: {self.nome} | Temperatura: {self.temperatura} | Umidade: {self.umidade} | Condição: {self.condicao}"
-            f"{'-' * 60}"
-        )
+        return(f"Cidade: {self.nome} | Temperatura: {self.temperatura} | Umidade: {self.umidade} | Condição: {self.condicao}")

@@ -102,27 +102,17 @@ if __name__ == "__main__":
     ]
     
     print(f"{'-' * 10} Menu {'-' * 10}\n")
-    print("1 - Escolher uma cidade da lista\n")
+    print("1 - Consultar cidades padrão\n")
     print("2 - Digitar uma cidade\n")
 
     opcao = input("Escolha uma opção: ")
     
     if opcao == "1":
 
-        # Exibe a lista de cidades disponíveis numeradas para o usuário
-        for indice, cidade in enumerate(cidades_padrao, start=1):
-            print(f"{indice} - {cidade}")
-
-        escolha = int(input("Escolha uma cidade: "))
-
-        # Verifica se o número informado corresponde a uma cidade válida da lista
-        if 1 <= escolha <= len(cidades_padrao):
-            cidades = [cidades_padrao[escolha - 1]]
-        else:
-            print("Opção inválida.")
-            exit()
+        cidades = cidades_padrao
 
     elif opcao == "2":
+
         cidade = input("Digite o nome da cidade: ")
         cidades = [cidade]
 
