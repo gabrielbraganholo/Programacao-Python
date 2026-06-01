@@ -109,11 +109,13 @@ if __name__ == "__main__":
     
     if opcao == "1":
 
+        # Exibe a lista de cidades disponíveis numeradas para o usuário
         for indice, cidade in enumerate(cidades_padrao, start=1):
             print(f"{indice} - {cidade}")
 
         escolha = int(input("Escolha uma cidade: "))
 
+        # Verifica se o número informado corresponde a uma cidade válida da lista
         if 1 <= escolha <= len(cidades_padrao):
             cidades = [cidades_padrao[escolha - 1]]
         else:
