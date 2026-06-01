@@ -1,5 +1,3 @@
-# pip install python-dotenv
-
 import requests
 import os
 from cidade_clima import CidadeClima
